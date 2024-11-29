@@ -1,0 +1,77 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+body {
+  background-color: #30323d;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+/* 
+  Colors
+    Base Color: #487BE8
+    Secondary Color: #262831
+    Neutral: #30323D
+*/
+
+/* Containers */
+.container {
+  padding: 1rem !important;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin: 0 auto !important;
+}
+
+/* Header */
+.header {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  font-size: xx-large;
+
+  margin-bottom: 0.75rem !important;
+}
+
+.header-caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.header-caption div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Table-related */
+table {
+  border-collapse: collapse;
+  /* border: 0.5rem solid #487be8; */
+
+  background-color: #262831;
+
+  color: white;
+  font-size: small;
+}
+td {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  padding: 0 !important;
+
+  text-align: center;
+  vertical-align: center;
+}
+td svg {
+  aspect-ratio: 1 / 1;
+}
